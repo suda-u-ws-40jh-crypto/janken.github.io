@@ -32,8 +32,11 @@ export const winLose = (button) => {
             game = "負け";
         }
     }
-    const computerHandImage = ("./images/" + computerHand);
-    const playerHandImage = ("./images/" + playerHand);
+    const computerHandImageFile = ("./images/" + computerHand);
+    const playerHandImageFile = ("./images/" + playerHand);
     document.getElementById("winLoseArea").textContent = game;
-    
+    const playerHandImage = document.getElementById("playerHand");
+    const computerHandImage = document.getElementById("computerHand");
+    computerHandImage.src = computerHandImageFile;
+    playerHandImage.src = playerHandImageFile;
 };
