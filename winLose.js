@@ -2,6 +2,7 @@ export const winLose = (button) => {
     const playerHand = button.value;
     const randomnumber = Math.floor(Math.random() * (2 + 1));
     let game = "";
+    let computerHand = "";
     switch (randomnumber){
         case 0:
             computerHand = "rock";
