@@ -1,7 +1,6 @@
 export const winLose = (button) => {
     const playerHand = button.value;
     const randomnumber = Math.floor(Math.random() * (2 + 1));
-    let computerHand = "";
     let game = "";
     switch (randomnumber){
         case 0:
@@ -33,5 +32,8 @@ export const winLose = (button) => {
             game = "負け";
         }
     }
+    const computerHandImage = ("./images/" + computerHand);
+    const playerHandImage = ("./images/" + playerHand);
     document.getElementById("winLoseArea").textContent = game;
+    
 };
