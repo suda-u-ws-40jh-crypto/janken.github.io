@@ -4,3 +4,8 @@
     align-items: center;
     gap: 0px;
 }
+.playerHand {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
