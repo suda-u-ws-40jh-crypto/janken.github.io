@@ -33,8 +33,8 @@ export const winLose = (button) => {
             game = "負け";
         }
     }
-    const computerHandImageFile = ("./images/" + computerHand);
-    const playerHandImageFile = ("./images/" + playerHand);
+    const computerHandImageFile = ("./images/" + computerHand + ".png");
+    const playerHandImageFile = ("./images/" + playerHand ".png");
     document.getElementById("winLoseArea").textContent = game;
     const playerHandImage = document.getElementById("playerHand");
     const computerHandImage = document.getElementById("computerHand");
