@@ -8,26 +8,26 @@ export const winLose = (button) => {
             computerHand = "rock";
             break;
         case 1:
-            computerHand ="scissors";
+            computerHand = "scissors";
             break;
         case 2:
-            computerHand ="paper";
+            computerHand = "paper";
             break;
     }
     if (playerHand === "scissors"){
-        if (computerHand ==="paper"){
+        if (computerHand === "paper"){
             game = "勝ち";
         }else{
             game = "負け";
         }
     }else if (playerHand === "paper"){
-        if (computerHand ==="rock"){
+        if (computerHand === "rock"){
             game = "勝ち";
         }else{
             game = "負け";
         }
     }else if(playerHand === "rock"){
-        if (computerHand ==="scissors"){
+        if (computerHand === "scissors"){
             game = "勝ち";
         }else{
             game = "負け";
