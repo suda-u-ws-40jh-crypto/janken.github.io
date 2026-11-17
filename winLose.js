@@ -17,20 +17,26 @@ export const winLose = (button) => {
     if (playerHand === "scissors"){
         if (computerHand === "paper"){
             game = "勝ち";
-        }else{
+        }else if (computerHand = "rock"){
             game = "負け";
+        }else{
+            game = "あいこ”;
         }
     }else if (playerHand === "paper"){
         if (computerHand === "rock"){
             game = "勝ち";
-        }else{
+        }else if (computerHand = "scissors"){
             game = "負け";
+        }else{
+            game = "あいこ";
         }
     }else if(playerHand === "rock"){
         if (computerHand === "scissors"){
             game = "勝ち";
-        }else{
+        }else if (computerHand === "paper"){
             game = "負け";
+        }else{
+            gane = "あいこ";
         }
     }
     const computerHandImageFile = ("./images/" + computerHand + ".png");
