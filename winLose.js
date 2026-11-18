@@ -36,7 +36,7 @@ export const winLose = (button) => {
         }else if (computerHand === "paper"){
             game = "負け";
         }else{
-            gane = "あいこ";
+            game = "あいこ";
         }
     }
     const computerHandImageFile = ("./images/" + computerHand + ".png");
