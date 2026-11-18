@@ -11,6 +11,10 @@
     gap: 200px;
 }
 .result {
-    font-size: 2em;
+    font-size: 1em;
+    width: 2em;
+    height: 2em;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
