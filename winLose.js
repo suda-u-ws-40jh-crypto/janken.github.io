@@ -17,7 +17,7 @@ export const winLose = (button) => {
     if (playerHand === "scissors"){
         if (computerHand === "paper"){
             game = "勝ち";
-        }else if (computerHand = "rock"){
+        }else if (computerHand === "rock"){
             game = "負け";
         }else{
             game = "あいこ";
@@ -25,7 +25,7 @@ export const winLose = (button) => {
     }else if (playerHand === "paper"){
         if (computerHand === "rock"){
             game = "勝ち";
-        }else if (computerHand = "scissors"){
+        }else if (computerHand === "scissors"){
             game = "負け";
         }else{
             game = "あいこ";
