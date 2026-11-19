@@ -17,6 +17,4 @@ html {
     font-size: 3em;
     width: 100%;
     display: block;
-    display: flex;
-    align-items: center;
 }
