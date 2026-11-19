@@ -16,9 +16,7 @@ html {
 .result {
     font-size: 3em;
     width: 100%;
+    display: block;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    text-align: center;
 }
