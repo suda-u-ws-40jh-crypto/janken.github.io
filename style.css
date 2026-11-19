@@ -13,8 +13,9 @@ html {
     justify-content: center;
     gap: 200px;
 }
-.result {
+.result p {
     font-size: 3em;
     width: 100%;
     display: block;
+    border: 2px solid syan;
 }
