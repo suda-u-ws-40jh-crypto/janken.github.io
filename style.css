@@ -19,8 +19,6 @@ html {
 .result p {
     font-size: 3em;
     width: 100%;
-    display: block;
-    border-width: 5px;
-    border-style: solid;
-    border-color: gray;
+    display: flex;
+    justify-content: center;
 }
