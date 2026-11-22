@@ -19,5 +19,5 @@ html {
 .result p {
     font-size: 20px;
     width: 90%;
-    margin: 0 auto;
+    margin: auto auto;
 }
