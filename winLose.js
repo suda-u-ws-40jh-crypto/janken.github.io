@@ -41,7 +41,7 @@ export const winLose = (button) => {
     }
     const computerHandImageFile = ("./images/" + computerHand + ".png");
     const playerHandImageFile = ("./images/" + playerHand + ".png");
-    document.getElementById("winLoseArea").textContent = game;
+    document.getElementById("resultArea").textContent = game;
     const playerHandImageArea = document.querySelector("#playerhand img");
     const computerHandImageArea = document.querySelector("#computerhand img");
     computerHandImageArea.src = computerHandImageFile;
